@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model</title>
+  <style>
+    body {
+      background: black;
+      color: limegreen;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 5%;
+      font-family: monospace;
+    }
+
+    .lavender-box {
+      width: 150px;
+      height: 150px;
+      background-color: lavender;
+      margin: 20px auto;
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      color: black;
+    }
+
+    .box-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px; /* Reduced gap between boxes */
+    }
+  </style>
+</head>
+<body>
+  <div class="box-container">
+    <div class="lavender-box">1</div>
+    <div class="lavender-box">2</div>
+    <div class="lavender-box">3</div>
+  </div>
+</body>
+</html>
